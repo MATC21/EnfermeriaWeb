@@ -10935,10 +10935,22 @@ header.masthead {
   background-attachment: scroll;
   background-size: cover;
 }
+
+.logo {
+  width: 100px;
+  height: auto; 
+  margin: 0px 10px 0px 0px;
+  border-radius: 10%;
+}
+
 header.masthead h1, header.masthead .h1 {
   font-size: 2.25rem;
 }
 @media (min-width: 992px) {
+  .logo {
+    width: 150px; 
+    margin: 0px 20px 0px 0px;
+  }
   header.masthead {
     height: 100vh;
     min-height: 40rem;
@@ -10953,6 +10965,12 @@ header.masthead h1, header.masthead .h1 {
   }
 }
 @media (min-width: 1200px) {
+
+  .logo {
+    width: 130px; /* Cambiado el tamaño en dispositivos aún más grandes */
+    margin: 0px 100px 0px 0px; /* Cambiado el margen en dispositivos aún más grandes */
+  }
+
   header.masthead h1, header.masthead .h1 {
     font-size: 3.5rem;
   }
